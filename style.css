@@ -7,6 +7,10 @@ h1 {
     font-size: 40px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .coral {
     color: coral;
 }
@@ -44,4 +48,40 @@ section {
     background-image: url(images/back1.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.horo {
+    padding-left: 2%;
+}
+
+.experience-item {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+#baby-web-developer {
+    border-left: 7px solid blue;
+}
+
+#full-stack-developer {
+    border-left: 7px solid coral;
+}
+
+footer {
+    text-align: center;
 }
